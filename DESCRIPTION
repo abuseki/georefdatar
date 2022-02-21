@@ -1,0 +1,16 @@
+Package: georefdatar
+Title: Provides geochemical reference datasets
+Version: 0.0.0.9000
+Authors@R: 
+    person("Gerald", "Schuberth-Hlavač", , "abuseki@synapticgap.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: The packe provides some geochmical refernce datasets. These datasets are commonly used for geochemical calculations and plot. The package provides reference dataset libe the compositions of some reservoirs like the prmitive mantle or chondrites.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Depends: 
+    R (>= 2.10)
+LazyData: true
+Imports: Rdpack
+RdMacros: Rdpack
