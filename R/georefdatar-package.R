@@ -1,7 +1,7 @@
 #' @keywords internal
 #' -- taken from Rdpack-manual
 #' @references
-#' \insertAllCited{}
+#'     \insertAllCited{}
 "_PACKAGE"
 
 ## usethis namespace: start

@@ -22,11 +22,11 @@ This conversion was done using:
 Pyrolite__McDonough_Sun__1995
 }
 \description{
-A dataset containing the \emph{recommended chemical composition of the of the Silicate Earth-''Pyrolite''} as given in \insertCite{McDonough_1995}{gcrefer}
+A dataset containing the \emph{recommended chemical composition of the of the Silicate Earth-''Pyrolite''} as given in \insertCite{McDonough_1995}{georefdatar}
 }
 \references{
 {
-\insertRef{McDonough_1995}{gcrefer}
+\insertRef{McDonough_1995}{georefdatar}
 }
 }
 \keyword{datasets}

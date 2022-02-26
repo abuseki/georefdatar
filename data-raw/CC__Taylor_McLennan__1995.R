@@ -36,16 +36,26 @@ CC__Taylor_McLennan__1995[rows, ucc] <- CC__Taylor_McLennan__1995[rows, ucc]/1E3
 CC__Taylor_McLennan__1995[rows, bcc] <- CC__Taylor_McLennan__1995[rows, bcc]/1E3
 CC__Taylor_McLennan__1995[rows, lcc] <- CC__Taylor_McLennan__1995[rows, lcc]/1E3
 
-# clean element names
-CC__Taylor_McLennan__1995 <- dplyr::mutate(CC__Taylor_McLennan__1995, Element= stringr::str_trim(stringr::str_split(Element, ',', simplify = TRUE)[[1]]))
+# clean element names: Use sub and replace everything behind ',' with nothing
+CC__Taylor_McLennan__1995$Element <- sub(",.*", "", CC__Taylor_McLennan__1995$Element)
 
-# separate reservoirs and make them wider
-UpperCC__Taylor_McLennan__1995 <- tidyr::pivot_wider(names_from = Element, values_from = ucc)
-BulkCC__Taylor_McLennan__1995 <- tidyr::pivot_wider(names_from = Element, values_from = bcc)
-LowerCC__Taylor_McLennan__1995 <- tidyr::pivot_wider(names_from = Element, values_from = lcc)
+# separate reservoirs, drops NAs and make them wider
+UpperCC__Taylor_McLennan__1995 <- tidyr::pivot_wider(data = tidyr::drop_na(CC__Taylor_McLennan__1995[,c('Element', ucc)]), names_from = Element, values_from = dplyr::all_of(ucc))
+BulkCC__Taylor_McLennan__1995 <- tidyr::pivot_wider(data = tidyr::drop_na(CC__Taylor_McLennan__1995[,c('Element', bcc)]), names_from = Element, values_from = dplyr::all_of(bcc))
+LowerCC__Taylor_McLennan__1995 <- tidyr::pivot_wider(data = tidyr::drop_na(CC__Taylor_McLennan__1995[,c('Element', lcc)]), names_from = Element, values_from = dplyr::all_of(lcc))
 
 # finally save the data
 usethis::use_data(UpperCC__Taylor_McLennan__1995, overwrite = TRUE)
 usethis::use_data(BulkCC__Taylor_McLennan__1995, overwrite = TRUE)
 usethis::use_data(LowerCC__Taylor_McLennan__1995, overwrite = TRUE)
+
+# # for checking values
+# writexl::write_xlsx(
+#   dplyr::bind_rows(
+#     cbind(res= "UCC", UpperCC__Taylor_McLennan__1995),
+#     cbind(res= "BCC", BulkCC__Taylor_McLennan__1995),
+#     cbind(res= "LCC", LowerCC__Taylor_McLennan__1995)
+#   ),
+#   '~/scratch/TaylorMcLennan1995.xlsx'
+# )
 

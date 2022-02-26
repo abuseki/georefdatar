@@ -1,7 +1,7 @@
 #' Primitive mantle
 #'
 #' A dataset containing the element concentrations in the primitive mantle as
-#' given in \insertCite{sun1989chemical}{gcrefer}.
+#' given in \insertCite{sun1989chemical}{georefdatar}.
 #'
 #' For lead and cesium the -- in this work -- recommended values for
 #' mantel-normalizing diagrams where taken.
@@ -13,7 +13,7 @@
 #'
 #'
 #' @references{
-#'   \insertRef{sun1989chemical}{gcrefer}
+#'   \insertRef{sun1989chemical}{georefdatar}
 #' }
 #'
 #' @importFrom Rdpack reprompt

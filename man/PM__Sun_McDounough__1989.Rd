@@ -13,7 +13,7 @@ PM__Sun_McDounough__1989
 }
 \description{
 A dataset containing the element concentrations in the primitive mantle as
-given in \insertCite{sun1989chemical}{gcrefer}.
+given in \insertCite{sun1989chemical}{georefdatar}.
 }
 \details{
 For lead and cesium the -- in this work -- recommended values for
@@ -22,7 +22,7 @@ The original values that where given in Tb.1 are (Cs, 0.032) and (Pb, 0.185).
 }
 \references{
 {
-\insertRef{sun1989chemical}{gcrefer}
+\insertRef{sun1989chemical}{georefdatar}
 }
 }
 \keyword{datasets}

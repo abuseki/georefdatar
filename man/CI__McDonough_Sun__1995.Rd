@@ -12,7 +12,7 @@ Li, Be, B, C, N, F, Na, Mg, Al, Si, P, S, Cl, K, Ca, Sc, Ti, V, Cr, Mn, Fe, Co, 
 CI__McDonough_Sun__1995
 }
 \description{
-A dataset containing the composition of the \emph{CI} chondrite as given by \insertCite{McDonough_1995}{gcrefer}
+A dataset containing the composition of the \emph{CI} chondrite as given by \insertCite{McDonough_1995}{georefdatar}
 }
 \details{
 In this work the concentrations of most of the major elements are given in
@@ -27,7 +27,7 @@ This conversion was done using:
 }
 \references{
 {
-\insertRef{McDonough_1995}{gcrefer}
+\insertRef{McDonough_1995}{georefdatar}
 }
 }
 \keyword{datasets}
