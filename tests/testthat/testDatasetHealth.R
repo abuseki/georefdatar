@@ -8,4 +8,6 @@ test_that('No NAs in datasets', {
   expect_false(any(is.na(BulkCC__Taylor_McLennan__1995)))
   expect_false(any(is.na(LowerCC__Taylor_McLennan__1995)))
 
+  expect_false(any(is.na(ALL_MORB__GALE__2013)))
+  expect_false(any(is.na(BAB__GALE__2013)))
 })

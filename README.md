@@ -5,10 +5,11 @@
 <!-- badges: end -->
 
 The goal of georefdatar is to provide commonly used reference data sets for
-geoscience. Up to now these are well known and widely used geochemical data of 
+geoscience for use with _R_. Up to now these are well known and widely used geochemical data of 
 reservoirs like the primitive mantle, to continental crust, ...
 
-For all data set the corresponding references are give.
+For all data sets the corresponding references are give.
+
 ## Installation
 
 You can install the development version of georefdatar from [GitHub](https://github.com/) with:
@@ -20,7 +21,7 @@ devtools::install_github("abuseki/georefdatar")
 
 ## Example
 
-To get the classic primitive mantle data of Sun and McDounough (1989) one ca use:
+To get the classic primitive mantle data of Sun and McDounough (1989) one can use:
 
 ``` r
 library(georefdatar)
