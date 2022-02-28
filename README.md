@@ -5,8 +5,12 @@
 <!-- badges: end -->
 
 The goal of georefdatar is to provide commonly used reference data sets for
-geoscience for use with _R_. Up to now these are well known and widely used geochemical data of 
-reservoirs like the primitive mantle, to continental crust, ...
+geoscience for use with _R_.  
+
+Up to now these are:
+* periodic table of elemnts
+* list of minerals
+* well known and widely used geochemical data of  reservoirs like the primitive mantle, to continental crust, ...
 
 For all data sets the corresponding references are give.
 
