@@ -1,0 +1,76 @@
+---
+output: github_document
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+# georefdatar
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of georefdatar is to provide regulary used reference data sets for
+geoscience for use with _R_.  
+
+Up to now these are:
+* periodic table of the elements
+* list of minerals -- with name, symbol (abbreviation) and chemistry
+* well known and widely used geochemical data of reservoirs like the primitive
+  mantle, to continental crust, basalts, ...
+* some functions for basic queries of the periodic table of the elements and the
+  list of minerals are also included.
+
+All data sets have full references, making them citable.
+
+## Installation
+
+You can install the development version of georefdatar from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("abuseki/georefdatar")
+```
+
+## Example
+
+* To get the classic primitive mantle data of Sun and McDounough (1989) one can use:
+
+  ```{r}
+  library(georefdatar)
+  
+  PM__Sun_McDounough__1989[,c('Cs','Rb','Ba','Th','U','Nb','K','La','Ce','Pb','Pr','Sr','P','Nd','Zr','Sm','Eu','Ti','Dy','Y','Yb','Lu')]
+  ```
+  
+  or using `dplyr`:
+  ```{r}
+  library(georefdatar)
+  library(dplyr)
+  
+  PM__Sun_McDounough__1989 %>% select(Cs, Rb, Ba, Th, U, Nb, K, La, Ce, Pb, Pr, Sr, P, Nd, Zr, Sm, Eu, Ti, Dy, Y, Yb, Lu)
+  ```
+  
+* Query the list of minerals:
+  * by names or symbols given as a regular expression:
+    ```{r}
+    library(georefdatar)
+    
+    minSearch('Pyrr.*')
+    minSearch('^Ms$')
+    ```
+  
+  * by chemistry as a regular expression:
+    ```{r}
+    library(georefdatar)
+
+    minsForChemistry('\\(SiO4\\)3$')
+    ```
+
+* Query atomic mass from the periodic table of the elements:
+  ```{r}
+  m('H')
+  m('H')*2 + m('O')
+
+  # Si wt% in muscovite
+  round(3*m('Si') / (m('K')+3*m('Al')+3*m('Si')+12*m('O')+2*m('H')) * 100, 2)
+  ```
+  
