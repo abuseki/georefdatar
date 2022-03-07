@@ -1,5 +1,5 @@
 
-# georefdatar
+# georefdatar – Geosciences reference data sets in R
 
 <!-- badges: start -->
 <!-- badges: end -->
@@ -48,6 +48,17 @@ devtools::install_github("abuseki/georefdatar")
     library(georefdatar)
     library(dplyr)
     ```
+
+        ## 
+        ## Attache Paket: 'dplyr'
+
+        ## Die folgenden Objekte sind maskiert von 'package:stats':
+        ## 
+        ##     filter, lag
+
+        ## Die folgenden Objekte sind maskiert von 'package:base':
+        ## 
+        ##     intersect, setdiff, setequal, union
 
     ``` r
     PM__Sun_McDounough__1989 %>% select(Cs, Rb, Ba, Th, U, Nb, K, La, Ce, Pb, Pr, Sr, P, Nd, Zr, Sm, Eu, Ti, Dy, Y, Yb, Lu)
