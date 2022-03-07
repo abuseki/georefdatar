@@ -34,5 +34,5 @@
 #' m('H')*2+m('O')
 #'
 m <- function(sym) {
-  pte[pte$Symbol=='H',]$AtomicMass
+  pte[pte$Symbol==sym,]$AtomicMass
 }
