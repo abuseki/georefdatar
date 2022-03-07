@@ -17,16 +17,52 @@
 
 
 
-#' Get information for a minerals
+#' Find minerals by their names or symbols
 #'
-#' @param sym Symbol of the mineral as a string
+#' Searches for [minerals][mins] by their names and symbols using a
+#' [regular expression][base::regex]. By default cases are ignored.
 #'
-#' @return Information for a mineral with symbol `sym`
+#' @param pattern     regular expression for the mineral to search
+#' @param ignore.case switch case insensitivity on (default) or off
+#'
+#' @return data.frame of [minerals][mins] where the given pattern matches.
+#'
+#' @seealso [List of minerals][mins], [minsForChemistry()]
+#'
 #' @export
 #'
-#' @seealso [List of minerals][mins]
 #' @examples
-#' minInfo('Ms')
-minInfo <- function(sym) {
-  subset(mins, Symbol==sym)
+#' minSearch('alm')
+#' minSearch('Pyh$', ignore.case = FALSE)
+#'
+minSearch <- function(pattern, ignore.case= TRUE) {
+  res <- unique(c(
+    grep(pattern, mins$Symbol, ignore.case = ignore.case),
+    grep(pattern, mins$Name, ignore.case = ignore.case)
+  ))
+
+  mins[res, ]
+}
+
+
+
+#' Find minerals by their chemistry
+#'
+#' Searches for [minerals][mins] by their chemistry using a
+#' [regular expression][base::regex].
+#'
+#' @param pattern     regular expression for the chemistry
+#' @param ignore.case switch case insensitivity on or off (default)
+#'
+#' @return data.frame of [minerals][mins] where the given pattern matches.
+#'
+#' @seealso [List of minerals][mins], [minSearch()]
+#'
+#' @export
+#'
+#' @examples
+#' minsForChemistry('Mn.*\\(SiO4\\)$')
+#'
+minsForChemistry <- function(pattern, ignore.case= FALSE) {
+  mins[grep(pattern, mins$Chemistry, ignore.case = ignore.case), ]
 }
