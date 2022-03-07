@@ -14,21 +14,25 @@
 #' }
 #'
 #' @importFrom Rdpack reprompt
+#'
 "pte"
 
 
 
 #' Get the atomic mass of an element
 #'
-#' @param sym Symbol of the element as a string
+#' @param sym symbol of the element as a string
 #'
-#' @return Atomic mass of element with symbol `sym`
-#' @export
+#' @return Atomic mass of element with the given symbol
 #'
 #' @seealso [periodic table of elements][pte]
+#'
+#' @export
+#'
 #' @examples
 #' m('H')
 #' m('H')*2+m('O')
+#'
 m <- function(sym) {
-  subset(pte, Symbol==sym)$AtomicMass
+  pte[pte$Symbol=='H',]$AtomicMass
 }

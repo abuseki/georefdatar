@@ -40,14 +40,14 @@ CC__Taylor_McLennan__1995[rows, lcc] <- CC__Taylor_McLennan__1995[rows, lcc]/1E3
 CC__Taylor_McLennan__1995$Element <- sub(",.*", "", CC__Taylor_McLennan__1995$Element)
 
 # separate reservoirs, drops NAs and make them wider
-UpperCC__Taylor_McLennan__1995 <- tidyr::pivot_wider(data = tidyr::drop_na(CC__Taylor_McLennan__1995[,c('Element', ucc)]), names_from = Element, values_from = dplyr::all_of(ucc))
-BulkCC__Taylor_McLennan__1995 <- tidyr::pivot_wider(data = tidyr::drop_na(CC__Taylor_McLennan__1995[,c('Element', bcc)]), names_from = Element, values_from = dplyr::all_of(bcc))
-LowerCC__Taylor_McLennan__1995 <- tidyr::pivot_wider(data = tidyr::drop_na(CC__Taylor_McLennan__1995[,c('Element', lcc)]), names_from = Element, values_from = dplyr::all_of(lcc))
+CC_Upper__Taylor_McLennan__1995 <- tidyr::pivot_wider(data = tidyr::drop_na(CC__Taylor_McLennan__1995[,c('Element', ucc)]), names_from = Element, values_from = dplyr::all_of(ucc))
+CC_Bulk__Taylor_McLennan__1995 <- tidyr::pivot_wider(data = tidyr::drop_na(CC__Taylor_McLennan__1995[,c('Element', bcc)]), names_from = Element, values_from = dplyr::all_of(bcc))
+CC_Lower__Taylor_McLennan__1995 <- tidyr::pivot_wider(data = tidyr::drop_na(CC__Taylor_McLennan__1995[,c('Element', lcc)]), names_from = Element, values_from = dplyr::all_of(lcc))
 
 # finally save the data
-usethis::use_data(UpperCC__Taylor_McLennan__1995, overwrite = TRUE)
-usethis::use_data(BulkCC__Taylor_McLennan__1995, overwrite = TRUE)
-usethis::use_data(LowerCC__Taylor_McLennan__1995, overwrite = TRUE)
+usethis::use_data(CC_Upper__Taylor_McLennan__1995, overwrite = TRUE)
+usethis::use_data(CC_Bulk__Taylor_McLennan__1995, overwrite = TRUE)
+usethis::use_data(CC_Lower__Taylor_McLennan__1995, overwrite = TRUE)
 
 # # for checking values
 # writexl::write_xlsx(

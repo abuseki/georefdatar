@@ -13,6 +13,7 @@
 #' }
 #'
 #' @importFrom Rdpack reprompt
+#'
 "mins"
 
 

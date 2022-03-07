@@ -10,8 +10,8 @@
 #' *  `ppm= wt% * 10000`
 #' *  `ppm= ppb / 1000`
 #'
-#' @format A data frame with 1 row and `r ncol(UpperCC__Taylor_McLennan__1995)` element concentrations in ppm. These elements are:\cr
-#' `r paste(colnames(UpperCC__Taylor_McLennan__1995), collapse= ', ')`
+#' @format A data frame with 1 row and `r ncol(CC_Upper__Taylor_McLennan__1995)` element concentrations in ppm. These elements are:\cr
+#' `r paste(colnames(CC_Upper__Taylor_McLennan__1995), collapse= ', ')`
 #'
 #'
 #'
@@ -20,7 +20,7 @@
 #' }
 #'
 #' @importFrom Rdpack reprompt
-"UpperCC__Taylor_McLennan__1995"
+"CC_Upper__Taylor_McLennan__1995"
 
 
 
@@ -37,8 +37,8 @@
 #' *  `ppm= wt% * 10000`
 #' *  `ppm= ppb / 1000`
 #'
-#' @format A data frame with 1 row and `r ncol(BulkCC__Taylor_McLennan__1995)` element concentrations in ppm. These elements are:\cr
-#' `r paste(colnames(BulkCC__Taylor_McLennan__1995), collapse= ', ')`
+#' @format A data frame with 1 row and `r ncol(CC_Bulk__Taylor_McLennan__1995)` element concentrations in ppm. These elements are:\cr
+#' `r paste(colnames(CC_Bulk__Taylor_McLennan__1995), collapse= ', ')`
 #'
 #'
 #'
@@ -47,7 +47,7 @@
 #' }
 #'
 #' @importFrom Rdpack reprompt
-"BulkCC__Taylor_McLennan__1995"
+"CC_Bulk__Taylor_McLennan__1995"
 
 
 
@@ -64,8 +64,8 @@
 #' *  `ppm= wt% * 10000`
 #' *  `ppm= ppb / 1000`
 #'
-#' @format A data frame with 1 row and `r ncol(LowerCC__Taylor_McLennan__1995)` element concentrations in ppm. These elements are:\cr
-#' `r paste(colnames(LowerCC__Taylor_McLennan__1995), collapse= ', ')`
+#' @format A data frame with 1 row and `r ncol(CC_Lower__Taylor_McLennan__1995)` element concentrations in ppm. These elements are:\cr
+#' `r paste(colnames(CC_Lower__Taylor_McLennan__1995), collapse= ', ')`
 #'
 #'
 #'
@@ -74,4 +74,4 @@
 #' }
 #'
 #' @importFrom Rdpack reprompt
-"LowerCC__Taylor_McLennan__1995"
+"CC_Lower__Taylor_McLennan__1995"

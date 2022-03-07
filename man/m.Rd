@@ -7,10 +7,10 @@
 m(sym)
 }
 \arguments{
-\item{sym}{Symbol of the element as a string}
+\item{sym}{symbol of the element as a string}
 }
 \value{
-Atomic mass of element with symbol \code{sym}
+Atomic mass of element with the given symbol
 }
 \description{
 Get the atomic mass of an element
@@ -18,6 +18,7 @@ Get the atomic mass of an element
 \examples{
 m('H')
 m('H')*2+m('O')
+
 }
 \seealso{
 \link[=pte]{periodic table of elements}
