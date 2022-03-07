@@ -6,7 +6,7 @@
 \alias{georefdatar-package}
 \title{georefdatar: Provides geochemical reference datasets}
 \description{
-The packe provides some reference data sets used in geoscience. These data sets are commonly used for geochemical calculations and plots. The package provides reference data sets like the compositions of some reservoirs e.g. the primitive mantle or chondrites.
+The package contains some reference datasets that are regularly used in geosciences. These are a periodic table of the elements, a list of minerals and some reservoir reference data set (continental crust, mantle, basalts, ...). Some functions for basic queries of the periodic table of the elements and the list of minerals are also included. All records have full references, making them citable.
 }
 \references{
 \preformatted{\\insertAllCited\{\}

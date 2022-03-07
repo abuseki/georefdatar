@@ -34,5 +34,5 @@
 #' m('H')*2+m('O')
 #'
 m <- function(sym) {
-  pte[pte$Symbol==sym,]$AtomicMass
+  georefdatar::pte[georefdatar::pte$Symbol==sym,]$AtomicMass
 }

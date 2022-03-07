@@ -38,11 +38,11 @@
 #'
 minSearch <- function(pattern, ignore.case= TRUE) {
   res <- unique(c(
-    grep(pattern, mins$Symbol, ignore.case = ignore.case),
-    grep(pattern, mins$Name, ignore.case = ignore.case)
+    grep(pattern, georefdatar::mins$Symbol, ignore.case = ignore.case),
+    grep(pattern, georefdatar::mins$Name, ignore.case = ignore.case)
   ))
 
-  mins[res, ]
+  georefdatar::mins[res, ]
 }
 
 
@@ -65,5 +65,5 @@ minSearch <- function(pattern, ignore.case= TRUE) {
 #' minsForChemistry('Mn.*\\(SiO4\\)$')
 #'
 minsForChemistry <- function(pattern, ignore.case= FALSE) {
-  mins[grep(pattern, mins$Chemistry, ignore.case = ignore.case), ]
+  georefdatar::mins[grep(pattern, georefdatar::mins$Chemistry, ignore.case = ignore.case), ]
 }
