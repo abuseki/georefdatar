@@ -7,12 +7,14 @@
 The goal of georefdatar is to provide regulary used reference data sets
 for geoscience for use with *R*.
 
-Up to now these are: \* periodic table of the elements \* list of
-minerals – with name, symbol (abbreviation) and chemistry \* well known
-and widely used geochemical data of reservoirs like the primitive
-mantle, to continental crust, basalts, … \* some functions for basic
-queries of the periodic table of the elements and the list of minerals
-are also included.
+Up to now these are:
+
+-   periodic table of the elements
+-   list of minerals – with name, symbol (abbreviation) and chemistry
+-   well known and widely used geochemical data of reservoirs like the
+    primitive mantle, to continental crust, basalts, …
+-   some functions for basic queries of the periodic table of the
+    elements and the list of minerals are also included.
 
 All data sets have full references, making them citable.
 
@@ -47,20 +49,7 @@ devtools::install_github("abuseki/georefdatar")
     ``` r
     library(georefdatar)
     library(dplyr)
-    ```
 
-        ## 
-        ## Attache Paket: 'dplyr'
-
-        ## Die folgenden Objekte sind maskiert von 'package:stats':
-        ## 
-        ##     filter, lag
-
-        ## Die folgenden Objekte sind maskiert von 'package:base':
-        ## 
-        ##     intersect, setdiff, setequal, union
-
-    ``` r
     PM__Sun_McDounough__1989 %>% select(Cs, Rb, Ba, Th, U, Nb, K, La, Ce, Pb, Pr, Sr, P, Nd, Zr, Sm, Eu, Ti, Dy, Y, Yb, Lu)
     ```
 

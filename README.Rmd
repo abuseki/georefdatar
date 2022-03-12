@@ -2,7 +2,7 @@
 output: github_document
 ---
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = TRUE, message = FALSE)
 ```
 # georefdatar -- Geosciences reference data sets in R
 
@@ -14,6 +14,7 @@ The goal of georefdatar is to provide regulary used reference data sets for
 geoscience for use with _R_.  
 
 Up to now these are:
+
 * periodic table of the elements
 * list of minerals -- with name, symbol (abbreviation) and chemistry
 * well known and widely used geochemical data of reservoirs like the primitive
