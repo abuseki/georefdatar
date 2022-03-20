@@ -18,7 +18,7 @@ Up to now these are:
 * periodic table of the elements
 * list of minerals -- with name, symbol (abbreviation) and chemistry
 * well known and widely used geochemical data of reservoirs like the primitive
-  mantle, to continental crust, basalts, ...
+  mantle, the continental crust, basalts, ...
 * some functions for basic queries of the periodic table of the elements and the
   list of minerals are also included.
 

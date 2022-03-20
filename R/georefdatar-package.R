@@ -19,6 +19,3 @@
 #' @name    georefdatar_package
 #' @rdname  georefdatar_package
 NULL
-
-## quiets concerns of R CMD check
-#if(getRversion() >= "2.15.1")  utils::globalVariables(c('mins', 'pte'))

@@ -1,6 +1,6 @@
 #' Primitive mantle
 #'
-#' A dataset containing the element concentrations in the primitive mantle as
+#' A data set containing the element concentrations in the primitive mantle as
 #' given by \insertCite{sun1989chemical;textual}{georefdatar}.
 #'
 #' For lead and cesium the recommended (in this work) values for
