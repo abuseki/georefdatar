@@ -4,7 +4,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of georefdatar is to provide regulary used reference data sets
+The goal of georefdatar is to provide regular used reference data sets
 for geoscience for use with *R*.
 
 Up to now these are:
@@ -12,7 +12,7 @@ Up to now these are:
 -   periodic table of the elements
 -   list of minerals – with name, symbol (abbreviation) and chemistry
 -   well known and widely used geochemical data of reservoirs like the
-    primitive mantle, to continental crust, basalts, …
+    primitive mantle, the continental crust, basalts, …
 -   some functions for basic queries of the periodic table of the
     elements and the list of minerals are also included.
 

@@ -10,7 +10,7 @@ knitr::opts_chunk$set(echo = TRUE, message = FALSE)
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of georefdatar is to provide regulary used reference data sets for
+The goal of georefdatar is to provide regularly used reference data sets for
 geoscience for use with _R_.  
 
 Up to now these are:
