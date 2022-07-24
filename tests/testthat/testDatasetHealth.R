@@ -13,9 +13,13 @@ test_that('No NAs in datasets', {
 
   expect_false(any(is.na(ALL_MORB__GALE__2013)))
   expect_false(any(is.na(BAB__GALE__2013)))
+
+  expect_false(any(is.na(CC_Upper__Rudnick_Gao__2014)))
+  expect_false(any(is.na(CC_Middle__Rudnick_Gao__2014)))
+  expect_false(any(is.na(CC_Lower__Rudnick_Gao__2014)))
+  expect_false(any(is.na(CC_Bulk__Rudnick_Gao__2014)))
 })
 
-# TODO Randomized value checks in the data sets
 
 # TODO CHECK REFERENCES for unwanted attributes
 

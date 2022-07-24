@@ -11,7 +11,7 @@
 # p248/Tab.3
 #
 # In the original article some elements where given in wt%, ppm and ppb.
-# Here all values are in ppm. The convertion used:
+# Here all values are in ppm. The conversion used:
 # * ppm= wt% * 10000
 # * ppm= ppb / 1000
 #

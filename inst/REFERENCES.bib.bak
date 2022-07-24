@@ -58,7 +58,6 @@
   pages     = {D1388--D1395},
   volume    = {49},
   doi       = {10.1093/nar/gkaa971},
-  keywords  = {reference, data},
   publisher = {Oxford University Press ({OUP})},
 }
 
@@ -68,7 +67,6 @@
   note         = {Retrieved February 28, 2022},
   title        = {{PubChem Periodic Table of Elements}},
   year         = {2022},
-  keywords     = {reference, data},
   url          = {https://pubchem.ncbi.nlm.nih.gov/periodic-table/},
 }
 
@@ -88,13 +86,38 @@
 @Article{Warr_2021,
   author    = {Laurence N. Warr},
   journal   = {Mineralogical Magazine},
-  title     = {{IMA}{\textendash}{CNMNC} approved mineral symbols},
+  title     = {{IMA}-{CNMNC} approved mineral symbols},
   year      = {2021},
   month     = may,
   pages     = {1--30},
   doi       = {10.1180/mgm.2021.43},
   publisher = {Mineralogical Society},
   url       = {https://www.cambridge.org/core/journals/mineralogical-magazine/article/imacnmnc-approved-mineral-symbols/62311F45ED37831D78603C6E6B25EE0A},
+}
+
+@InCollection{Rudnick2003,
+  author    = {Rudnick, R. L. and Gao, S.},
+  booktitle = {Treatise on Geochemistry},
+  publisher = {Elsevier},
+  title     = {{{Composition of the Continental Crust}}},
+  year      = {2003},
+  pages     = {1--64},
+  doi       = {10.1016/b0-08-043751-6/03016-4},
+}
+
+@InCollection{Rudnick2014,
+  author    = {Rudnick, R. L. and Gao, S.},
+  booktitle = {Treatise on Geochemistry},
+  publisher = {Elsevier},
+  title     = {{{Composition of the Continental Crust}}},
+  year      = {2014},
+  address   = {Oxford},
+  edition   = {Second Edition},
+  editor    = {Heinrich D. Holland and Karl K. Turekian},
+  isbn      = {978-0-08-098300-4},
+  pages     = {1--51},
+  doi       = {10.1016/B978-0-08-095975-7.00301-6},
+  url       = {https://www.sciencedirect.com/science/article/pii/B9780080959757003016},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
