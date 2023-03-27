@@ -1,0 +1,7 @@
+name,value,err,unit,refkey
+K40,5.543E-10,,y^-1,Steiger1977
+K40,5.5305E-10,0.0135E-10,y^-1,Renne2011
+Ar37,0.019830,0.000043,d^-1,Renne2001
+Ar39,0.002576755,3,y^-1,Stoenner1965
+Rb87,1.42E-11,,y^-1,Steiger1977
+Rb87,1.3972E-11,0.0045E-11,y^-1,Villa2015

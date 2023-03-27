@@ -16,9 +16,11 @@ geoscience for use with _R_.
 Up to now these are:
 
 * periodic table of the elements
-* list of minerals -- with name, symbol (abbreviation) and chemistry
+* table of minerals -- with name, symbol (abbreviation) and chemistry
 * well known and widely used geochemical data of reservoirs like the primitive
   mantle, the continental crust, basalts, ...
+* tables of decay constants and isotopic rations frequently used in
+  geochronology
 * some functions for basic queries of the periodic table of the elements and the
   list of minerals are also included.
 

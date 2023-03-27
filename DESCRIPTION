@@ -1,20 +1,21 @@
 Package: georefdatar
 Title: Geosciences reference data sets in R
-Version: 0.1.2.9000
+Version: 0.2.0.9000
 Authors@R: 
     person("Gerald", "Schuberth-Hlavač", email= "abuseki@synapticgap.com",
       role = c("aut", "cre"))
 Description: The package provides some reference data sets that are regularly
   used in geosciences. These are a periodic table of the elements, a list of
   minerals and some reservoir reference data set (continental crust, mantle,
-  basalts, ...). Some functions for basic queries of the periodic table of the
+  basalts, ...), some decay constants and isotopic ratios used frequently in
+  geochronology. Some functions for basic queries of the periodic table of the
   elements and the list of minerals are also included. All data sets have full
   references, making them citable.
 License: MIT + file LICENSE
 URL: https://github.com/abuseki/georefdatar
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.0
+RoxygenNote: 7.2.3
 Depends: 
     R (>= 2.10)
 LazyData: true

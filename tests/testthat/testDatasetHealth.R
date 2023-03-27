@@ -23,3 +23,24 @@ test_that('No NAs in datasets', {
 
 # TODO CHECK REFERENCES for unwanted attributes
 
+test_that('Decay constants is healthy', {
+  # Check for NAs
+  expect_false(any(is.na(decayConstants[c("name", "value", "refkey")])))
+
+  # Check uniqueness of <name, reference>
+  l <- apply(decayConstants, 1, function(r) paste0(r["name"], r["refkey"]))
+  expect_true(length(l)==length(unique((l))))
+})
+
+
+test_that('Isotopic ratios is healthy', {
+  # Check for NAs
+  expect_false(any(is.na(isoRatios[c("name", "value", "refkey")])))
+
+  # Check uniqueness of <name, reference>
+  l <- apply(isoRatios, 1, function(r) paste0(r["name"], r["refkey"]))
+  expect_true(length(l)==length(unique((l))))
+})
+
+
+

@@ -13,7 +13,7 @@ if (cleanUp) {
   root <- 'data/'
   fs <- list.files(root, pattern = '.+\\.rda$')
 
-  file.remove(lapply(fs, function(f) file.remove(paste0(root, f))))
+  lapply(fs, function(f) file.remove(paste0(root, f)))
 }
 
 ## Build
