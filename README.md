@@ -15,6 +15,7 @@ Up to now these are:
   primitive mantle, the continental crust, basalts, …
 - tables of decay constants and isotopic rations frequently used in
   geochronology
+- color codes of the International Chronostratigraphic Chart
 - some functions for basic queries of the periodic table of the elements
   and the list of minerals are also included.
 
