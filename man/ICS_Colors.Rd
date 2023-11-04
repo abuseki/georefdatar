@@ -26,11 +26,13 @@ ICS_Colors
 }
 \description{
 A data set containing the color codes used by the
-International Chronostratigraphic Chart by the
-International Commission on Stratigraphy (ICS)
+\href{https://stratigraphy.org/chart}{International Chronostratigraphic Chart} by the
+\href{https://stratigraphy.org/}{International Commission on Stratigraphy} (ICS)
 \insertCite{Cohen2013}{georefdatar}.
+}
+\details{
 The coloring in this chart follows the
-Commission for the Geological Map of the World (CGMW)
+\href{https://ccgm.org/}{Commission for the Geological Map of the World} (CGMW)
 \insertCite{Vrielynck2022}{georefdatar}.
 }
 \references{

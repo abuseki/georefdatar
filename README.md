@@ -15,7 +15,8 @@ Up to now these are:
   primitive mantle, the continental crust, basalts, …
 - tables of decay constants and isotopic rations frequently used in
   geochronology
-- color codes of the International Chronostratigraphic Chart
+- color codes of the [International Chronostratigraphic
+  Chart](https://stratigraphy.org/chart)
 - some functions for basic queries of the periodic table of the elements
   and the list of minerals are also included.
 
@@ -60,7 +61,7 @@ devtools::install_github("abuseki/georefdatar")
       ##       Cs    Rb    Ba    Th     U    Nb     K    La    Ce    Pb    Pr    Sr     P
       ##    <dbl> <dbl> <dbl> <dbl> <dbl> <dbl> <dbl> <dbl> <dbl> <dbl> <dbl> <dbl> <dbl>
       ## 1 0.0079 0.635  6.99 0.085 0.021 0.713   250 0.687  1.78 0.071 0.276  21.1    95
-      ## # … with 9 more variables: Nd <dbl>, Zr <dbl>, Sm <dbl>, Eu <dbl>, Ti <dbl>,
+      ## # ℹ 9 more variables: Nd <dbl>, Zr <dbl>, Sm <dbl>, Eu <dbl>, Ti <dbl>,
       ## #   Dy <dbl>, Y <dbl>, Yb <dbl>, Lu <dbl>
 
 - Query the list of minerals:

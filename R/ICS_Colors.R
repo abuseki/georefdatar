@@ -1,11 +1,12 @@
 #' The CGMW ICS color codes
 #'
 #' A data set containing the color codes used by the
-#' International Chronostratigraphic Chart by the
-#' International Commission on Stratigraphy (ICS)
+#' [International Chronostratigraphic Chart](https://stratigraphy.org/chart) by the
+#' [International Commission on Stratigraphy](https://stratigraphy.org/) (ICS)
 #' \insertCite{Cohen2013}{georefdatar}.
+#'
 #' The coloring in this chart follows the
-#' Commission for the Geological Map of the World (CGMW)
+#' [Commission for the Geological Map of the World](https://ccgm.org/) (CGMW)
 #' \insertCite{Vrielynck2022}{georefdatar}.
 #'
 #' @format
