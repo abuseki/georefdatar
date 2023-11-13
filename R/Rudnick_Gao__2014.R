@@ -16,10 +16,11 @@
 #'
 #'
 #'
-#' @references{
-#'   \insertRef{Rudnick2014}{georefdatar}
-#'   \insertRef{Rudnick2003}{georefdatar}
-#' }
+#' @references
+#' \insertRef{Rudnick2014}{georefdatar}
+#'
+#' \insertRef{Rudnick2003}{georefdatar}
+#'
 #'
 #' @importFrom Rdpack reprompt
 "CC_Upper__Rudnick_Gao__2014"

@@ -19,7 +19,7 @@ if (cleanUp) {
 ## Build
 root <- 'data-raw/'
 fs <- list.files(root, pattern = '.+\\.R$')
-### remove ourself from the list
+### remove ourselves from the list
 fs <- fs[fs != "CleanBuildAll.R"]
 
 ### rebuild by sourcing

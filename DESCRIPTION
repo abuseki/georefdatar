@@ -1,6 +1,6 @@
 Package: georefdatar
 Title: Geosciences reference data sets in R
-Version: 0.3.0.9000
+Version: 0.4.0.9000
 Authors@R: 
     person("Gerald", "Schuberth-Hlavač", email= "abuseki@synapticgap.com",
       role = c("aut", "cre"))
@@ -22,5 +22,7 @@ LazyData: true
 Imports: Rdpack
 RdMacros: Rdpack
 Suggests: 
+    spelling,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
+Language: en-US

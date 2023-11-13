@@ -25,9 +25,8 @@ The listed values for the major elements (oxides) are in wt\% and all other
 elements are given in ppm. Heat production is given in mW/m^3.
 }
 \references{
-{
 \insertRef{Rudnick2014}{georefdatar}
+
 \insertRef{Rudnick2003}{georefdatar}
-}
 }
 \keyword{datasets}
