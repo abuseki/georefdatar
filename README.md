@@ -2,9 +2,8 @@
 # georefdatar – Geosciences reference data sets in R
 
 <!-- badges: start -->
-<!--
+
 [![R-CMD-check](https://github.com/abuseki/georefdatar/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/abuseki/georefdatar/actions/workflows/R-CMD-check.yaml)
--->
 <!-- badges: end -->
 
 The goal of georefdatar is to provide regularly used reference data sets
