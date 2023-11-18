@@ -8,6 +8,7 @@ knitr::opts_chunk$set(echo = TRUE, message = FALSE)
 
 
 <!-- badges: start -->
+[![R-CMD-check](https://github.com/abuseki/georefdatar/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/abuseki/georefdatar/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of georefdatar is to provide regularly used reference data sets for
@@ -22,6 +23,7 @@ Up to now these are:
 * tables of decay constants and isotopic rations frequently used in
   geochronology
 * color codes of the [International Chronostratigraphic Chart](https://stratigraphy.org/chart)
+* Sets of elements regullary use in geochemistry, e. g. REE, HREE, PGE, ... 
 * some functions for basic queries of the periodic table of the elements and the
   list of minerals are also included.
 

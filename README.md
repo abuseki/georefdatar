@@ -2,6 +2,8 @@
 # georefdatar – Geosciences reference data sets in R
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/abuseki/georefdatar/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/abuseki/georefdatar/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of georefdatar is to provide regularly used reference data sets
@@ -17,6 +19,8 @@ Up to now these are:
   geochronology
 - color codes of the [International Chronostratigraphic
   Chart](https://stratigraphy.org/chart)
+- Sets of elements regullary use in geochemistry, e. g. REE, HREE, PGE,
+  …
 - some functions for basic queries of the periodic table of the elements
   and the list of minerals are also included.
 

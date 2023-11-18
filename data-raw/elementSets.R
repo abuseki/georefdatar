@@ -2,9 +2,11 @@
 
 ## REE
 Lanthanides <- c('La', 'Ce', 'Pr', 'Nd', 'Pm', 'Sm', 'Eu', 'Gd', 'Tb', 'Dy', 'Ho', 'Er', 'Tm', 'Yb', 'Lu')
-REE <- c('Sc', 'Y', Lanthanides)
-LREE <- c('Sc', 'La', 'Ce', 'Pr', 'Nd', 'Pm', 'Sm', 'Eu')
-HREE <- c('Y', 'Gd', 'Tb', 'Dy', 'Ho', 'Er', 'Tm', 'Yb', 'Lu')
+REE <- Lanthanides
+LREE <- c('La', 'Ce', 'Pr', 'Nd')
+MREE <- c('Sm', 'Eu', 'Gd', 'Tb', 'Dy', 'Ho')
+HREE <- c('Er', 'Tm', 'Yb', 'Lu')
+REM <- c('Sc', 'Y', Lanthanides)
 
 ## PGE
 PGE <- c('Ru', 'Rh', 'Pd', 'Os', 'Ir', 'Pt')
@@ -14,7 +16,9 @@ PPGE <- c('Ru', 'Pt', 'Pd')
 usethis::use_data(Lanthanides, overwrite = TRUE)
 usethis::use_data(REE, overwrite = TRUE)
 usethis::use_data(LREE, overwrite = TRUE)
+usethis::use_data(MREE, overwrite = TRUE)
 usethis::use_data(HREE, overwrite = TRUE)
+usethis::use_data(REM, overwrite = TRUE)
 
 usethis::use_data(PGE, overwrite = TRUE)
 usethis::use_data(IPGE, overwrite = TRUE)

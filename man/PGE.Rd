@@ -7,17 +7,11 @@
 \alias{PPGE}
 \title{Platinum-group elements -- PGE}
 \format{
-Three element sets:
-\itemize{
-\item PGE   Platinum-group elements -- e.g.
-\insertCite{Marshall1999}{georefdatar}.
-\item IPGE, PPGE Ir-PGE and Pd-PGE --
-\insertCite{Rollinson1993,Marshall1999}{georefdatar};
-}
+character vector with 6 elements.
 
-An object of class \code{character} of length 3.
+character vector with 3 elements.
 
-An object of class \code{character} of length 3.
+character vector with 3 elements.
 }
 \usage{
 PGE
@@ -29,10 +23,17 @@ PPGE
 \description{
 Ru-Pd and Os-Pt: in chemistry, this group is referred to as the platinum
 metals. Since the 1960 geologists are using the term "platinum-group
-elements" (PGE) \insertCite{Marshall1999,Connelly2005}{georefdatar}. In geochemistry, this
-group is further divided into two subgroups: Ir-PGE and Pd-PGE
-\insertCite{Marshall1999}{georefdatar} with Au often added to the
-latter \insertCite{Rollinson1993}{georefdatar}.
+elements" (PGE) \insertCite{Marshall1999,Connelly2005}{georefdatar}. In
+geochemistry, this group is further divided into two subgroups: Ir-PGE and
+Pd-PGE \insertCite{Marshall1999}{georefdatar} with Au often added to the
+latter \insertCite{Rollinson1993}{georefdatar}.\cr
+\cr
+\itemize{
+\item PGE   Platinum-group elements -- e.g.
+\insertCite{Marshall1999}{georefdatar}.
+\item IPGE, PPGE Ir-PGE and Pd-PGE --
+\insertCite{Rollinson1993,Marshall1999}{georefdatar};
+}
 }
 \section{Functions}{
 \itemize{
