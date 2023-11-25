@@ -19,3 +19,5 @@
 #' @name    georefdatar_package
 #' @rdname  georefdatar_package
 NULL
+
+globalVariables(c("ICS_Colors"))

@@ -19,7 +19,7 @@ Up to now these are:
   geochronology
 - color codes of the [International Chronostratigraphic
   Chart](https://stratigraphy.org/chart)
-- Sets of elements regullary use in geochemistry, e. g. REE, HREE, PGE,
+- Sets of elements regularly used in geochemistry, e. g. REE, HREE, PGE,
   …
 - some functions for basic queries of the periodic table of the elements
   and the list of minerals are also included.

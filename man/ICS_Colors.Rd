@@ -7,18 +7,13 @@
 \format{
 A data frame with 194 rows and the following
 11 columns:\cr
-\enumerate{
-\item \verb{standard sorting order}  ICS' ordering of this entry
-\item \verb{Long List (isc:)}        Entries name prefixed by \verb{ics:}
-\item \verb{Long List (formatted)}   The (common) name of entry, e.g. 'Holocene'
-\item \code{Rank}                    Is the entry a System, Series, Stage, ...
-\item \code{Cyan}                    CMYK colors
-\item \code{Magenta}
-\item \code{Yellow}
-\item \code{Black}
-\item \code{Red}                     RGB colors
-\item \code{Green}
-\item \code{Blue}
+\describe{
+\item{standard sorting order}{ICS' ordering of this entry}
+\item{Long List (isc:)}{Entries name prefixed by \verb{ics:}}
+\item{Long List (formatted)}{The (common) name of entry, e.g. 'Holocene'}
+\item{Rank}{Is the entry a System, Series, Stage, ...}
+\item{Cyan, Magenta, Yellow, Black}{Color's values in the CMYK color model}
+\item{Red, Green, Blue}{Color's values in the RGB color model}
 }
 }
 \usage{
@@ -41,5 +36,8 @@ The coloring in this chart follows the
 
 \insertRef{Vrielynck2022}{georefdatar}
 }
+}
+\seealso{
+\code{\link[=icsColor]{icsColor()}} a convenience function to get a specific color.
 }
 \keyword{datasets}
