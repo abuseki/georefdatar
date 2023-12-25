@@ -1,4 +1,4 @@
-#' Geosciences reference data sets in R
+#' Geosciences Reference Data Sets in R
 #'
 #' @description The package includes reference data sets commonly used in
 #' geosciences, such as the standard atomic weights of elements, a periodic
