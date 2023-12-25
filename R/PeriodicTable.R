@@ -6,6 +6,8 @@
 #' For each element the following attributes are reported:
 #' `r paste(names(pte), collapse= ', ')`
 #'
+#' @seealso [IUPAC_StdAW] for the standard atomic weights of the elements
+#' recommended by [IUPAC](https://www.iupac.org)
 #'
 #' @references{
 #'   \insertRef{pubChemPTable}{georefdatar}
@@ -16,23 +18,3 @@
 #' @importFrom Rdpack reprompt
 #'
 "pte"
-
-
-
-#' Get the atomic mass of an element
-#'
-#' @param sym symbol of the element as a string
-#'
-#' @return Atomic mass of element with the given symbol
-#'
-#' @seealso [periodic table of elements][pte]
-#'
-#' @export
-#'
-#' @examples
-#' m('H')
-#' m('H')*2+m('O')
-#'
-m <- function(sym) {
-  georefdatar::pte[georefdatar::pte$Symbol==sym,]$AtomicMass
-}

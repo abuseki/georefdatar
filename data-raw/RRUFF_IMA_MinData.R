@@ -5,8 +5,6 @@
 # Retrieved February 28, 2022 from
 #   https://rruff.info/ima/
 
-library(dplyr)
-
 mins <- readr::read_csv('data-raw/RRUFF_Export_20220228_102415.csv', show_col_types = FALSE)
 mins <- dplyr::select(mins, `Mineral Name (plain)`, `IMA Chemistry (plain)`, `IMA Mineral Symbol`)
 mins <- dplyr::rename(mins,

@@ -22,4 +22,8 @@ The periodic table of elements as given by PubChem \insertCite{pubChemPTable;tex
 \insertRef{Kim_2020}{georefdatar}
 }
 }
+\seealso{
+\link{IUPAC_StdAW} for the standard atomic weights of the elements
+recommended by \href{https://www.iupac.org}{IUPAC}
+}
 \keyword{datasets}

@@ -12,6 +12,8 @@ for geoscience for use with *R*.
 Up to now these are:
 
 - periodic table of the elements
+- standard atomic weights of the elements, as recommended by
+  [IUPAC](https://iupac.org)
 - table of minerals – with name, symbol (abbreviation) and chemistry
 - well known and widely used geochemical data of reservoirs like the
   primitive mantle, the continental crust, basalts, …
@@ -125,20 +127,20 @@ devtools::install_github("abuseki/georefdatar")
 - Query atomic mass from the periodic table of the elements:
 
   ``` r
-  m('H')
+  aw('H')
   ```
 
       ## [1] 1.008
 
   ``` r
-  m('H')*2 + m('O')
+  aw('H')*2 + aw('O')
   ```
 
       ## [1] 18.015
 
   ``` r
   # Si wt% in muscovite
-  round(3*m('Si') / (m('K')+3*m('Al')+3*m('Si')+12*m('O')+2*m('H')) * 100, 2)
+  round(3*aw('Si') / (aw('K')+3*aw('Al')+3*aw('Si')+12*aw('O')+2*aw('H')) * 100, 2)
   ```
 
       ## [1] 21.15

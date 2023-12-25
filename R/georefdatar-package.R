@@ -1,17 +1,14 @@
 #' Geosciences reference data sets in R
 #'
-#' @description
-#' The package provides some reference data sets that are regularly used in
-#' geosciences. These are a periodic table of the elements, a list of minerals
-#' and some reservoir reference data set (continental crust, mantle, basalts,
-#' ...). Some functions for basic queries of the periodic table of the elements
-#' and the list of minerals are also included.\cr
-#' All records have full references, making them citable.
+#' @description The package includes reference data sets commonly used in
+#' geosciences, such as the standard atomic weights of elements, a periodic
+#' table, a mineral list, reservoir reference datasets (continental crust,
+#' mantle, basalts, etc.), decay constants, and isotopic ratios frequently used
+#' in geochronology. Additionally, the package provides functions for basic
+#' queries of atomic weights and mineral lists.\cr
+#' All datasets have complete references, making them citable.
 #'
-#' @references {
-#'   \insertNoCite{*}{georefdatar}
-#'   \insertAllCited{}
-#' }
+#' @references { \insertNoCite{*}{georefdatar} \insertAllCited{} }
 #' @importFrom Rdpack reprompt
 #'
 #' @author  Gerald Schuberth-Hlavač
