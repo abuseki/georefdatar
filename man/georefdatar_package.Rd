@@ -3,7 +3,7 @@
 \name{georefdatar_package}
 \alias{georefdatar_package}
 \alias{georefdatar-package}
-\title{Geosciences reference data sets in R}
+\title{Geosciences Reference Data Sets in R}
 \description{
 The package includes reference data sets commonly used in
 geosciences, such as the standard atomic weights of elements, a periodic

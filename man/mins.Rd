@@ -5,14 +5,20 @@
 \alias{mins}
 \title{List of Minerals}
 \format{
-A data frame with 5763 minerals and their names, symbols and chemistry.\cr
+A data frame with 5763 minerals and their names, symbols
+(abbreviations) and chemistry.\cr
 Symbol, Name, Chemistry
 }
 \usage{
 mins
 }
 \description{
-IMA approved list of minerals. Retrieved from \emph{RRUFF} \insertCite{Lafuente_2015;textual}{georefdatar}.
+\href{https://mineralogy-ima.org/}{International Mineralogical Association (IMA)}
+Commission on New Minerals, Nomenclature and Classification (CNMNC)
+approved list of minerals, names and abbreviations
+\insertCite{Warr_2021}{georefdatar}.\cr
+Retrieved from \href{https://rruff.info/}{RRUFF}
+\insertCite{Lafuente_2015}{georefdatar}.
 }
 \references{
 {
@@ -20,5 +26,10 @@ IMA approved list of minerals. Retrieved from \emph{RRUFF} \insertCite{Lafuente_
 
 \insertRef{Warr_2021}{georefdatar}
 }
+}
+\seealso{
+\href{https://rruff.info/ima/}{IMA approved minerals on RRUFF}
+
+\href{https://rruff.info/rruff_1.0/uploads/MM85_291.pdf}{IMA–CNMNC approved mineral symbols}, \insertCite{Warr_2021}{georefdatar}
 }
 \keyword{datasets}

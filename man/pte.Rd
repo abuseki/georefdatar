@@ -24,6 +24,6 @@ The periodic table of elements as given by PubChem \insertCite{pubChemPTable;tex
 }
 \seealso{
 \link{IUPAC_StdAW} for the standard atomic weights of the elements
-recommended by \href{https://www.iupac.org}{IUPAC}
+recommended by \href{https://iupac.org}{IUPAC}
 }
 \keyword{datasets}

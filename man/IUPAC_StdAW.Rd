@@ -20,7 +20,7 @@ values with uncertainties (column stdAW::Uncertainty) or as intervals.}
 figures. Unless such precision cannot be attained due to the variability of
 isotopic composition in normal materials or due to the limitations of the
 measurement capability.}
-\item{abrStdAW::±}{A +/− value as a simplified measure of the reliability of
+\item{abrStdAW::±}{A plus-minus-value as a simplified measure of the reliability of
 the abridged values.}
 \item{Note}{The collected footnotes of the table. Notes are resolved to the
 sentences associated with them. If there is more than one note, the notes are
@@ -32,7 +32,7 @@ IUPAC_StdAW
 }
 \description{
 A data set containing the standard atomic weights of the elements as
-recommended by the \href{https://www.iupac.org}{International Union of Pure and Applied Chemistry (IUPAC)} and \href{https://www.ciaaw.org}{Commission on Isotopic Abundances and Atomic Weights (CIAAW)}.
+recommended by the \href{https://iupac.org}{International Union of Pure and Applied Chemistry (IUPAC)} and \href{https://www.ciaaw.org}{Commission on Isotopic Abundances and Atomic Weights (CIAAW)}.
 }
 \details{
 This is table 1 of \insertCite{Prohaska2022}{georefdatar}. The (foot)notes in

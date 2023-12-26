@@ -1,10 +1,20 @@
 #' List of Minerals
 #'
-#' IMA approved list of minerals. Retrieved from _RRUFF_ \insertCite{Lafuente_2015;textual}{georefdatar}.
+#' [International Mineralogical Association (IMA)](https://mineralogy-ima.org/)
+#' Commission on New Minerals, Nomenclature and Classification (CNMNC)
+#' approved list of minerals, names and abbreviations
+#' \insertCite{Warr_2021}{georefdatar}.\cr
+#' Retrieved from [RRUFF](https://rruff.info/)
+#' \insertCite{Lafuente_2015}{georefdatar}.
 #'
-#' @format A data frame with `r nrow(mins)` minerals and their names, symbols and chemistry.\cr
+#' @format A data frame with `r nrow(mins)` minerals and their names, symbols
+#' (abbreviations) and chemistry.\cr
 #' `r paste(names(mins), collapse= ', ')`
 #'
+#' @seealso
+#'   [IMA approved minerals on RRUFF](https://rruff.info/ima/)
+#'
+#'   [IMA–CNMNC approved mineral symbols](https://rruff.info/rruff_1.0/uploads/MM85_291.pdf), \insertCite{Warr_2021}{georefdatar}
 #'
 #' @references{
 #'   \insertRef{Lafuente_2015}{georefdatar}
@@ -37,9 +47,9 @@
 #' minSearch('Pyh$', ignore.case = FALSE)
 #'
 minSearch <- function(pattern, ignore.case= TRUE) {
-  res <- unique(c(
-    grep(pattern, georefdatar::mins$Symbol, ignore.case = ignore.case),
-    grep(pattern, georefdatar::mins$Name, ignore.case = ignore.case)
+  res <- base::unique(c(
+    base::grep(pattern, georefdatar::mins$Symbol, ignore.case = ignore.case),
+    base::grep(pattern, georefdatar::mins$Name, ignore.case = ignore.case)
   ))
 
   georefdatar::mins[res, ]
@@ -65,5 +75,5 @@ minSearch <- function(pattern, ignore.case= TRUE) {
 #' minsForChemistry('Mn.*\\(SiO4\\)$')
 #'
 minsForChemistry <- function(pattern, ignore.case= FALSE) {
-  georefdatar::mins[grep(pattern, georefdatar::mins$Chemistry, ignore.case = ignore.case), ]
+  georefdatar::mins[base::grep(pattern, georefdatar::mins$Chemistry, ignore.case = ignore.case), ]
 }

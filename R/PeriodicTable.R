@@ -7,7 +7,7 @@
 #' `r paste(names(pte), collapse= ', ')`
 #'
 #' @seealso [IUPAC_StdAW] for the standard atomic weights of the elements
-#' recommended by [IUPAC](https://www.iupac.org)
+#' recommended by [IUPAC](https://iupac.org)
 #'
 #' @references{
 #'   \insertRef{pubChemPTable}{georefdatar}

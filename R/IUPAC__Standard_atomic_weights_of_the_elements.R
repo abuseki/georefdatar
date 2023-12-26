@@ -2,7 +2,7 @@
 #'
 #' A data set containing the standard atomic weights of the elements as
 #' recommended by the [International Union of Pure and Applied Chemistry
-#' (IUPAC)](https://www.iupac.org) and [Commission on Isotopic Abundances and
+#' (IUPAC)](https://iupac.org) and [Commission on Isotopic Abundances and
 #' Atomic Weights (CIAAW)](https://www.ciaaw.org).
 #'
 #' This is table 1 of \insertCite{Prohaska2022}{georefdatar}. The (foot)notes in
@@ -24,7 +24,7 @@
 #' figures. Unless such precision cannot be attained due to the variability of
 #' isotopic composition in normal materials or due to the limitations of the
 #' measurement capability.}
-#' \item{abrStdAW::±}{A +/− value as a simplified measure of the reliability of
+#' \item{abrStdAW::±}{A plus-minus-value as a simplified measure of the reliability of
 #' the abridged values.}
 #' \item{Note}{The collected footnotes of the table. Notes are resolved to the
 #' sentences associated with them. If there is more than one note, the notes are

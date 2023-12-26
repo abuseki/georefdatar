@@ -4,7 +4,7 @@ output: github_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, message = FALSE)
 ```
-# georefdatar -- Geosciences Reference Data Sets in R
+# georefdatar -- Geosciences Reference Datasets in R
 
 
 <!-- badges: start -->

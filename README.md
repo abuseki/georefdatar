@@ -1,5 +1,5 @@
 
-# georefdatar – Geosciences Reference Data Sets in R
+# georefdatar – Geosciences Reference Datasets in R
 
 <!-- badges: start -->
 
