@@ -28,7 +28,7 @@ Up to now these are:
 * some functions for basic queries of the periodic table of the elements and the
   list of minerals are also included.
 
-All data sets have full references, making them citable.
+All datasets are fully referenced, and a BibTeX file containing the references is included.
 
 ## Installation
 

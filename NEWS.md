@@ -1,3 +1,3 @@
-# georefdatar 0.6.4
+# georefdatar 0.6.5
 
 * Initial CRAN submission.
