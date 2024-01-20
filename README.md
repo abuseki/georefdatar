@@ -4,6 +4,8 @@
 <!-- badges: start -->
 
 [![R-CMD-check](https://github.com/abuseki/georefdatar/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/abuseki/georefdatar/actions/workflows/R-CMD-check.yaml)
+[![CRAN
+status](https://www.r-pkg.org/badges/version/georefdatar)](https://CRAN.R-project.org/package=georefdatar)
 <!-- badges: end -->
 
 The goal of georefdatar is to provide regularly used reference data sets
