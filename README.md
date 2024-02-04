@@ -6,6 +6,10 @@
 [![R-CMD-check](https://github.com/abuseki/georefdatar/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/abuseki/georefdatar/actions/workflows/R-CMD-check.yaml)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/georefdatar)](https://CRAN.R-project.org/package=georefdatar)
+[![License:
+MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://choosealicense.com/licenses/mit/)
+[![Test
+coverage](https://github.com/abuseki/georefdatar/actions/workflows/test-coverage.yaml/badge.svg)](https://github.com/abuseki/georefdatar/actions/workflows/test-coverage.yaml)
 <!-- badges: end -->
 
 The goal of georefdatar is to provide regularly used reference data sets
@@ -33,7 +37,14 @@ references is included.
 
 ## Installation
 
-You can install the development version of georefdatar from
+You can install the version from [CRAN](https://cran.r-project.org/)
+with:
+
+``` r
+install.packages("georefdatar")
+```
+
+Or you can install the development version from
 [GitHub](https://github.com/) with:
 
 ``` r
