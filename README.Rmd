@@ -1,47 +1,28 @@
 ---
 output: github_document
 ---
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE, message = FALSE)
-```
-# georefdatar -- Geosciences Reference Datasets in R
 
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# georefdatar
 
 <!-- badges: start -->
-[![R-CMD-check](https://github.com/abuseki/georefdatar/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/abuseki/georefdatar/actions/workflows/R-CMD-check.yaml)
-[![CRAN status](https://www.r-pkg.org/badges/version/georefdatar)](https://CRAN.R-project.org/package=georefdatar)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://choosealicense.com/licenses/mit/)
-[![Test coverage](https://github.com/abuseki/georefdatar/actions/workflows/test-coverage.yaml/badge.svg)](https://github.com/abuseki/georefdatar/actions/workflows/test-coverage.yaml)
 <!-- badges: end -->
 
-The goal of georefdatar is to provide regularly used reference data sets for
-geoscience for use with _R_.  
-
-Up to now these are:
-
-* periodic table of the elements
-* standard atomic weights of the elements, as recommended by [IUPAC](https://iupac.org)
-* table of minerals -- with name, symbol (abbreviation) and chemistry
-* well known and widely used geochemical data of reservoirs like the primitive
-  mantle, the continental crust, basalts, ...
-* tables of decay constants and isotopic rations frequently used in
-  geochronology
-* color codes of the [International Chronostratigraphic Chart](https://stratigraphy.org/chart)
-* Sets of elements regularly used in geochemistry, e. g. REE, HREE, PGE, ... 
-* some functions for basic queries of the periodic table of the elements and the
-  list of minerals are also included.
-
-All datasets are fully referenced, and a BibTeX file containing the references is included.
+The goal of georefdatar is to ...
 
 ## Installation
 
-You can install the version from [CRAN](https://cran.r-project.org/) with:
-
-``` r
-install.packages("georefdatar")
-```
-
-Or you can install the development version from [GitHub](https://github.com/) with:
+You can install the development version of georefdatar from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
@@ -50,44 +31,25 @@ devtools::install_github("abuseki/georefdatar")
 
 ## Example
 
-* To get the classic primitive mantle data of Sun and McDounough (1989) one can use:
+This is a basic example which shows you how to solve a common problem:
 
-  ```{r}
-  library(georefdatar)
-  
-  PM__Sun_McDounough__1989[,c('Cs','Rb','Ba','Th','U','Nb','K','La','Ce','Pb','Pr','Sr','P','Nd','Zr','Sm','Eu','Ti','Dy','Y','Yb','Lu')]
-  ```
-  
-  or using `dplyr`:
-  ```{r}
-  library(georefdatar)
-  library(dplyr)
-  
-  PM__Sun_McDounough__1989 %>% select(Cs, Rb, Ba, Th, U, Nb, K, La, Ce, Pb, Pr, Sr, P, Nd, Zr, Sm, Eu, Ti, Dy, Y, Yb, Lu)
-  ```
-  
-* Query the list of minerals:
-  * by names or symbols given as a regular expression:
-    ```{r}
-    library(georefdatar)
-    
-    minSearch('Pyrr.*')
-    minSearch('^Ms$')
-    ```
-  
-  * by chemistry as a regular expression:
-    ```{r}
-    library(georefdatar)
+```{r example}
+library(georefdatar)
+## basic example code
+```
 
-    minsForChemistry('\\(SiO4\\)3$')
-    ```
+What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
 
-* Query atomic mass from the periodic table of the elements:
-  ```{r}
-  aw('H')
-  aw('H')*2 + aw('O')
+```{r cars}
+summary(cars)
+```
 
-  # Si wt% in muscovite
-  round(3*aw('Si') / (aw('K')+3*aw('Al')+3*aw('Si')+12*aw('O')+2*aw('H')) * 100, 2)
-  ```
-  
+You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date. `devtools::build_readme()` is handy for this.
+
+You can also embed plots, for example:
+
+```{r pressure, echo = FALSE}
+plot(pressure)
+```
+
+In that case, don't forget to commit and push the resulting figure files, so they display on GitHub and CRAN.

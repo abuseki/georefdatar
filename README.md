@@ -2,18 +2,14 @@
 # georefdatar – Geosciences Reference Datasets in R
 
 <!-- badges: start -->
-
 [![R-CMD-check](https://github.com/abuseki/georefdatar/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/abuseki/georefdatar/actions/workflows/R-CMD-check.yaml)
-[![CRAN
-status](https://www.r-pkg.org/badges/version/georefdatar)](https://CRAN.R-project.org/package=georefdatar)
+[![CRAN status](https://www.r-pkg.org/badges/version/georefdatar)](https://CRAN.R-project.org/package=georefdatar)
 ![development version number](https://img.shields.io/github/r-package/v/abuseki/georefdatar)
-[![License:
-MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://choosealicense.com/licenses/mit/)
-[![Test
-coverage](https://github.com/abuseki/georefdatar/actions/workflows/test-coverage.yaml/badge.svg)](https://github.com/abuseki/georefdatar/actions/workflows/test-coverage.yaml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://choosealicense.com/licenses/mit/)
+[![Test coverage](https://github.com/abuseki/georefdatar/actions/workflows/test-coverage.yaml/badge.svg)](https://github.com/abuseki/georefdatar/actions/workflows/test-coverage.yaml)
 <!-- badges: end -->
 
-The goal of georefdatar is to provide regularly used reference data sets
+> The goal of georefdatar is to provide regularly used reference data sets
 for geoscience for use with *R*.
 
 Up to now these are:
@@ -21,15 +17,14 @@ Up to now these are:
 - periodic table of the elements
 - standard atomic weights of the elements, as recommended by
   [IUPAC](https://iupac.org)
-- table of minerals – with name, symbol (abbreviation) and chemistry
+- table of minerals – with name, symbol (abbreviation) and formula
 - well known and widely used geochemical data of reservoirs like the
   primitive mantle, the continental crust, basalts, …
 - tables of decay constants and isotopic rations frequently used in
   geochronology
 - color codes of the [International Chronostratigraphic
   Chart](https://stratigraphy.org/chart)
-- Sets of elements regularly used in geochemistry, e. g. REE, HREE, PGE,
-  …
+- sets of elements regularly used in geochemistry, e. g. REE, HREE, PGE, ...
 - some functions for basic queries of the periodic table of the elements
   and the list of minerals are also included.
 
