@@ -5,31 +5,53 @@
 \alias{mins}
 \title{List of Minerals}
 \format{
-A data frame with 5763 minerals and their names, symbols
-(abbreviations) and chemistry.\cr
-Symbol, Name, Chemistry
+A data frame with 5744 minerals with the following columns:
+Symbol, Name, Formula, IMA Status.
 }
 \usage{
 mins
 }
 \description{
 \href{https://mineralogy-ima.org/}{International Mineralogical Association (IMA)}
-Commission on New Minerals, Nomenclature and Classification (CNMNC)
-approved list of minerals, names and abbreviations
-\insertCite{Warr_2021}{georefdatar}.\cr
-Retrieved from \href{https://rruff.info/}{RRUFF}
-\insertCite{Lafuente_2015}{georefdatar}.
+Commission on New Minerals, Nomenclature and Classification (CNMNC) approved
+list of minerals, names and abbreviations \insertCite{Warr_2021}{georefdatar}.
+}
+\details{
+This list is based on the supplementary material of
+\insertCite{Warr_2021;textual}{georefdatar}. Some minor harmonizations have
+been made in this list as some inconsistencies were found. In addition to
+minerals, this list also includes groups such as amphibole, biotite, pyroxene
+... and their abbreviations.\cr The list has the following attributes:
+\itemize{
+\item \code{Symbol}: IMA symbol/abbreviation
+\item \code{Name}: IMA name of the mineral
+\item \code{Formula}: IMA mineral formula
+\item \verb{IMA Status}:
+\itemize{
+\item \emph{A}: Approved
+\item \emph{G}: Grandfathered
+\item \emph{GROUP}: Name of a group of mineral species
+\item \emph{Rd}: Redefined
+\item \emph{Rn}: Renamed
+\item \emph{Q}: Questioned
+\item \emph{I}: Informal
+\item \emph{NL}: Not listed
+}
+}
+
+An up-to-date list of IMA approved minerals can be downloaded from
+\href{https://rruff.info/}{RRUFF} \insertCite{Lafuente_2015}{georefdatar}. However,
+this list only includes minerals and not groups.\cr
 }
 \references{
-{
-\insertRef{Lafuente_2015}{georefdatar}
-
 \insertRef{Warr_2021}{georefdatar}
-}
+
+\insertRef{Lafuente_2015}{georefdatar}
 }
 \seealso{
-\href{https://rruff.info/ima/}{IMA approved minerals on RRUFF}
+\href{https://doi.org/10.1180/mgm.2021.43}{IMA–CNMNC approved mineral symbols: Paper and supplementary material},
+\insertCite{Warr_2021}{georefdatar}
 
-\href{https://rruff.info/rruff_1.0/uploads/MM85_291.pdf}{IMA–CNMNC approved mineral symbols}, \insertCite{Warr_2021}{georefdatar}
+\href{https://rruff.info/ima/}{IMA approved minerals on RRUFF}
 }
 \keyword{datasets}
