@@ -6,6 +6,7 @@
 [![R-CMD-check](https://github.com/abuseki/georefdatar/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/abuseki/georefdatar/actions/workflows/R-CMD-check.yaml)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/georefdatar)](https://CRAN.R-project.org/package=georefdatar)
+![development version number](https://img.shields.io/github/r-package/v/abuseki/georefdatar)
 [![License:
 MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://choosealicense.com/licenses/mit/)
 [![Test
