@@ -1,5 +1,7 @@
 # georefdatar (development version)
 
+## georefdatar 0.6.5.9001
+
 * Changed the mineral list from using the RRUFF list to using the list in the 
   supplementary material of Warr (2021).\
   The Warr (2021) list also includes group names. This makes it more  practical 
