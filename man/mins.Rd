@@ -21,7 +21,7 @@ This list is based on the supplementary material of
 \insertCite{Warr_2021;textual}{georefdatar}. Some minor harmonizations have
 been made in this list as some inconsistencies were found. In addition to
 minerals, this list also includes groups such as amphibole, biotite, pyroxene
-... and their abbreviations.\cr The list has the following attributes:
+... and their abbreviations.\cr The list has the following attributes:\cr
 \itemize{
 \item \code{Symbol}: IMA symbol/abbreviation
 \item \code{Name}: IMA name of the mineral
@@ -53,5 +53,7 @@ this list only includes minerals and not groups.\cr
 \insertCite{Warr_2021}{georefdatar}
 
 \href{https://rruff.info/ima/}{IMA approved minerals on RRUFF}
+
+\code{\link[=minSearch]{minSearch()}}
 }
 \keyword{datasets}

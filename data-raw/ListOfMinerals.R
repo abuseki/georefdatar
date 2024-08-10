@@ -5,7 +5,7 @@
 
 
 t <- readxl::read_excel('data-raw/Warr__2021__IMA-CNMNC_minerals_supplementary_material.xlsx', skip = 1)
-# extract infos we want
+# extract info we want
 mins <- t[1:5744, 1:4]
 mins <- dplyr::rename(mins,
                       Name= Name,
