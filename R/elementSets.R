@@ -12,14 +12,15 @@
 #'   commonly used in geochemistry. Speaking in sets, the REE are a subset of
 #'   the REM. And all subsets of the REE are also limited to the lanthanides.\cr
 #'   \cr
-#' * Lanthanides   `La`--`Lu` \insertCite{Connelly2005}{georefdatar}.
-#' * REE           Same as Lanthanides. The term rare earth elements as used in geochemistry -- e.g \insertCite{Rollinson1993,Marshall1999}{georefdatar}.
-#' * REM           Rare earth metals. Sc, Y and the lanthanides \insertCite{Connelly2005}{georefdatar}
-#' * LREE          Light REE, `La`--`Nd`
-#' * MREE          Intermediate REE, `Sm`--`Ho`
-#' * HREE          Heavy REE, `Er`--`Lu`
+#' 1. **Lanthanides**   `La`--`Lu` \insertCite{Connelly2005}{georefdatar}.
+#' 1. **REE**           Same as Lanthanides. The term rare earth elements as used in geochemistry -- e.g \insertCite{Rollinson1993,Marshall1999}{georefdatar}.
+#' 1. **LREE**          Light REE, `La`--`Nd`
+#' 1. **MREE**          Intermediate REE, `Sm`--`Ho`
+#' 1. **HREE**          Heavy REE, `Er`--`Lu`
+#' 1. **REM**           Rare earth metals. Sc, Y and the lanthanides \insertCite{Connelly2005}{georefdatar}
 #'
-#' @format character vector with `r length(REE)` elements.
+#' @order 2
+#' @format `REE`: character vector with `r length(REE)` elements.
 #'
 #' @references
 #' \insertRef{Rollinson1993}{georefdatar}
@@ -37,24 +38,29 @@
 #'
 "REE"
 
-#' @describeIn REE Only lanthanides
-#' @format character vector with `r length(Lanthanides)` elements.
+#' @rdname REE
+#' @order 1
+#' @format `Lanthanides`: character vector with `r length(Lanthanides)` elements.
 "Lanthanides"
 
-#' @describeIn REE Light REE subset of REE
-#' @format character vector with `r length(LREE)` elements.
+#' @rdname REE
+#' @order 3
+#' @format `LREE`: character vector with `r length(LREE)` elements.
 "LREE"
 
-#' @describeIn REE Intermediate REE subset of REE
-#' @format character vector with `r length(MREE)` elements.
+#' @rdname REE
+#' @order 4
+#' @format `MREE`: character vector with `r length(MREE)` elements.
 "MREE"
 
-#' @describeIn REE Heavy REE subset of REE
-#' @format character vector with `r length(HREE)` elements.
+#' @rdname REE
+#' @order 5
+#' @format `HREE`: character vector with `r length(HREE)` elements.
 "HREE"
 
-#' @describeIn REE Rare earth metals
-#' @format character vector with `r length(REM)` elements.
+#' @rdname REE
+#' @order 6
+#' @format `REM`: character vector with `r length(REM)` elements.
 "REM"
 
 
