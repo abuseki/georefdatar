@@ -1,6 +1,6 @@
 Package: georefdatar
 Title: Geosciences Reference Datasets
-Version: 0.6.5.9004
+Version: 0.6.5.9005
 Authors@R: 
     person("Gerald", "Schuberth-Hlavač", email= "abuseki@synapticgap.com",
       role = c("aut", "cre"))

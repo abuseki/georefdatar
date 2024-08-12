@@ -1,9 +1,10 @@
 # georefdatar (development version)
 
-## georefdatar 0.6.5.9004
+## georefdatar 0.6.5.9005
 
-* Update documentation of REE
-* Update documentation of PGE
+1. Update documentation of REE
+2. Update documentation of PGE
+3. Update Wordlist
 
 ## georefdatar 0.6.5.9002
 
