@@ -1,5 +1,10 @@
 # georefdatar (development version)
 
+## georefdatar 0.6.5.9004
+
+* Update documentation of REE
+* Update documentation of PGE
+
 ## georefdatar 0.6.5.9002
 
 Added the Goldschmidt's classification of the elements

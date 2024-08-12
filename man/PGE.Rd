@@ -7,11 +7,11 @@
 \alias{PPGE}
 \title{Platinum-group elements -- PGE}
 \format{
-character vector with 6 elements.
+\code{PGE}: character vector with 6 elements.
 
-character vector with 3 elements.
+\code{IPGE}: character vector with 3 elements.
 
-character vector with 3 elements.
+\code{PPGE}: character vector with 3 elements.
 }
 \usage{
 PGE
@@ -21,6 +21,9 @@ IPGE
 PPGE
 }
 \description{
+List of platinum group elements and subsets thereof.
+}
+\details{
 Ru-Pd and Os-Pt: in chemistry, this group is referred to as the platinum
 metals. Since the 1960 geologists are using the term "platinum-group
 elements" (PGE) \insertCite{Marshall1999,Connelly2005}{georefdatar}. In
@@ -35,13 +38,6 @@ latter \insertCite{Rollinson1993}{georefdatar}.\cr
 \insertCite{Rollinson1993,Marshall1999}{georefdatar};
 }
 }
-\section{Functions}{
-\itemize{
-\item \code{IPGE}: Ir-PGE subgroup
-
-\item \code{PPGE}: Pd-PGE subgroup
-
-}}
 \examples{
 # get information from the periodic table of elements
 subset(pte, Symbol \%in\% PGE)

@@ -67,6 +67,9 @@
 
 #' Platinum-group elements -- PGE
 #'
+#' @description List of platinum group elements and subsets thereof.
+#'
+#' @details
 #' Ru-Pd and Os-Pt: in chemistry, this group is referred to as the platinum
 #' metals. Since the 1960 geologists are using the term "platinum-group
 #' elements" (PGE) \insertCite{Marshall1999,Connelly2005}{georefdatar}. In
@@ -79,7 +82,8 @@
 #' * IPGE, PPGE Ir-PGE and Pd-PGE --
 #' \insertCite{Rollinson1993,Marshall1999}{georefdatar};
 #'
-#' @format character vector with `r length(PGE)` elements.
+#' @order 1
+#' @format `PGE`: character vector with `r length(PGE)` elements.
 #'
 #' @references
 #' \insertRef{Rollinson1993}{georefdatar}
@@ -97,12 +101,14 @@
 #'
 "PGE"
 
-#' @describeIn PGE Ir-PGE subgroup
-#' @format character vector with `r length(IPGE)` elements.
+#' @rdname PGE
+#' @order 2
+#' @format `IPGE`: character vector with `r length(IPGE)` elements.
 "IPGE"
 
-#' @describeIn PGE Pd-PGE subgroup
-#' @format character vector with `r length(PPGE)` elements.
+#' @rdname PGE
+#' @order 3
+#' @format `PPGE`: character vector with `r length(PPGE)` elements.
 "PPGE"
 
 
