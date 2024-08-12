@@ -98,3 +98,62 @@
 #' @describeIn PGE Pd-PGE subgroup
 #' @format character vector with `r length(PPGE)` elements.
 "PPGE"
+
+
+
+#' Goldschmidt's classification of the elements
+#'
+#' @description
+#' Sets containing the elements classified after Goldschmidt.
+#'
+#' @details
+#' The geochemical behavior of the elements is controlled by many factors (e.g.
+#' ionic radius, volatility, redox, ...). Therefore, the elements can be
+#' classified in several ways. A common classification scheme is that developed
+#' by _V. M. Goldschmidt_, which is based on the affinity of elements to form
+#' different types of compounds. The Elements are characterized as:
+#'
+#' 1. **lithophile** (rock-loving): elements with a strong affinity for forming
+#' oxides and silicate minerals.
+#' 1. **chalcophile**  (copper-loving): elements with a strong affinity for
+#' forming sulfides.
+#' 1. **siderophile**  (iron-loving): elements with a strong affinity to form
+#' metals or solid solutions in metals.
+#' 1. **atmophile**  (air-loving): elements that exist either uncombined or as
+#' highly volatile compounds.
+#'
+#'
+#' @references
+#' \insertRef{Marshall1999}{georefdatar}
+#' @importFrom Rdpack reprompt
+#'
+#' @examples
+#' # List the atmophile elements
+#' Atmophile
+#'
+#' # Show the electron configuration of the atmophile elements
+#' pte[pte$Symbol %in% Atmophile, c("Symbol", "ElectronConfiguration")]
+#'
+#' @name Goldschmidt
+NULL
+
+#' @rdname Goldschmidt
+#' @order 1
+#' @format `Lithophile`: character vector with `r length(Lithophile)` elements.
+"Lithophile"
+
+#' @rdname Goldschmidt
+#' @order 2
+#' @format `Chalcophile`: character vector with `r length(Chalcophile)` elements.
+"Chalcophile"
+
+#' @rdname Goldschmidt
+#' @order 3
+#' @format `Siderophile`: character vector with `r length(Siderophile)` elements.
+"Siderophile"
+
+#' @rdname Goldschmidt
+#' @order 4
+#' @format `Atmophile`: character vector with `r length(Atmophile)` elements.
+"Atmophile"
+

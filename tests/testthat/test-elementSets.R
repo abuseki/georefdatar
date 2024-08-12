@@ -1,4 +1,4 @@
-test_that("elementSets works", {
+test_that("REE and Co works", {
 
   expect_true(all(
     length(Lanthanides) == 15,
@@ -32,4 +32,25 @@ test_that("elementSets works", {
     nrow(subset(georefdatar::pte, Symbol %in% PGE)) == length(PGE)
   )
 
+})
+
+
+test_that("Goldscmidt works", {
+  expect_setequal(Atmophile,
+                  c('H', "He", "N", "Ne", "Ar", "Kr", "Xe", "Rn", "C", "O")
+                  )
+  expect_setequal(Chalcophile,
+                  c('S', 'Cu', 'Zn', 'Ga', 'As', 'Se', 'Ag', 'Cd', 'In', 'Sb',
+                    'Te', 'Hg', 'Tl', 'Pb', 'Bi')
+                  )
+  expect_setequal(Lithophile,
+                  c('Li', 'Be', 'B', 'C', 'O', 'F', 'Na', 'Mg', 'Al', 'Si', 'P',
+                    'Cl', 'K', 'Ca', 'Sc', 'Ti', 'V', 'Cr', 'Mn', 'Br', 'Rb',
+                    'Sr', 'Y', 'Zr', 'Nb', 'I', 'Cs', 'Ba', 'La', 'Ce', 'Pr',
+                    'Nd', 'Sm', 'Eu', 'Gd', 'Tb', 'Dy', 'Ho', 'Er', 'Tm', 'Yb',
+                    'Lu', 'Hf', 'Ta', 'Th', 'U')
+                  )
+  expect_setequal(Siderophile, c('Fe', 'Co', 'Ni', 'Ge', 'Mo', 'Ru', 'Rh', 'Pd',
+                                 'Sn', 'W', 'Re', 'Os', 'Ir', 'Pt', 'Au')
+                  )
 })
