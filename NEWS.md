@@ -1,5 +1,9 @@
 # georefdatar (development version)
 
+## georefdatar 0.6.5.9006
+
+Name change of author/creator
+
 ## georefdatar 0.6.5.9005
 
 1. Update documentation of REE
