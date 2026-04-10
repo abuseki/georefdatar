@@ -16,7 +16,90 @@ A data set containing the estimated composition of the Depleted Mantle as
 given by \insertCite{Salters2004;textual}{georefdatar}.
 }
 \details{
-Please refer to the paper for the units.
+The data set contains the elemnts and their values. Here is a table that
+also contains the elements, their modeled values and their units:\tabular{lrl}{
+   Element \tab Model \tab Unit \cr
+   H2O \tab 116.000 \tab ppm \cr
+   He \tab 157.000 \tab ppt \cr
+   Li \tab 0.700 \tab ppm \cr
+   Be \tab 25.000 \tab ppb \cr
+   B \tab 0.060 \tab ppm \cr
+   CO2 \tab 50.300 \tab ppm \cr
+   N2 \tab 40.000 \tab ppb \cr
+   F \tab 11.000 \tab ppm \cr
+   Ne \tab 30.700 \tab ppq \cr
+   Na2O \tab 0.290 \tab wt\% \cr
+   MgO \tab 38.220 \tab wt\% \cr
+   Al2O3 \tab 4.280 \tab wt\% \cr
+   SiO2 \tab 44.900 \tab wt\% \cr
+   P \tab 40.700 \tab ppm \cr
+   S \tab 119.000 \tab ppm \cr
+   Cl \tab 0.510 \tab ppm \cr
+   Ar \tab 1.210 \tab ppb \cr
+   K \tab 60.000 \tab ppm \cr
+   CaO \tab 3.500 \tab wt\% \cr
+   Sc \tab 16.300 \tab ppm \cr
+   Ti \tab 798.000 \tab ppm \cr
+   V \tab 79.000 \tab ppm \cr
+   Cr \tab 2500.000 \tab ppm \cr
+   Mn \tab 1045.000 \tab ppm \cr
+   FeO \tab 8.070 \tab wt\% \cr
+   Co \tab 106.000 \tab ppm \cr
+   Ni \tab 1960.000 \tab ppm \cr
+   Cu \tab 30.000 \tab ppm \cr
+   Zn \tab 56.000 \tab ppm \cr
+   Ga \tab 3.200 \tab ppm \cr
+   Ge \tab 1.000 \tab ppm \cr
+   As \tab 7.400 \tab ppb \cr
+   Se \tab 72.000 \tab ppb \cr
+   Kr \tab 2.000 \tab ppq \cr
+   Rb \tab 0.088 \tab ppm \cr
+   Sr \tab 9.800 \tab ppm \cr
+   Y \tab 4.070 \tab ppm \cr
+   Zr \tab 7.940 \tab ppm \cr
+   Nb \tab 210.000 \tab ppb \cr
+   Mo \tab 25.000 \tab ppb \cr
+   Ru \tab 5.700 \tab ppb \cr
+   Rh \tab 1.000 \tab ppb \cr
+   Pd \tab 5.200 \tab ppb \cr
+   Ag \tab 6.000 \tab ppb \cr
+   Cd \tab 0.014 \tab ppm \cr
+   In \tab 12.200 \tab ppb \cr
+   Sn \tab 0.100 \tab ppm \cr
+   Sb \tab 2.600 \tab ppb \cr
+   Te \tab 15.100 \tab ppb \cr
+   Xe \tab 0.790 \tab ppq \cr
+   Cs \tab 1.320 \tab ppb \cr
+   Ba \tab 1.200 \tab ppm \cr
+   La \tab 0.234 \tab ppm \cr
+   Ce \tab 0.772 \tab ppm \cr
+   Pr \tab 0.131 \tab ppm \cr
+   Nd \tab 0.713 \tab ppm \cr
+   Sm \tab 0.270 \tab ppm \cr
+   Eu \tab 0.107 \tab ppm \cr
+   Gd \tab 0.395 \tab ppm \cr
+   Tb \tab 0.075 \tab ppm \cr
+   Dy \tab 0.531 \tab ppm \cr
+   Ho \tab 0.122 \tab ppm \cr
+   Er \tab 0.371 \tab ppm \cr
+   Tm \tab 0.060 \tab ppm \cr
+   Yb \tab 0.401 \tab ppm \cr
+   Lu \tab 0.063 \tab ppm \cr
+   Hf \tab 0.199 \tab ppm \cr
+   Ta \tab 13.800 \tab ppb \cr
+   W \tab 3.500 \tab ppb \cr
+   Re \tab 0.157 \tab ppb \cr
+   Os \tab 2.990 \tab ppb \cr
+   Ir \tab 2.900 \tab ppb \cr
+   Pt \tab 6.200 \tab ppb \cr
+   Au \tab 1.000 \tab ppb \cr
+   Hg \tab 10.000 \tab ppb \cr
+   Tl \tab 0.380 \tab ppb \cr
+   Pb \tab 23.200 \tab ppb \cr
+   Bi \tab 0.390 \tab ppb \cr
+   Th \tab 13.700 \tab ppb \cr
+   U \tab 4.700 \tab ppb \cr
+}
 }
 \references{
 {
