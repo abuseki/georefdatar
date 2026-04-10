@@ -1,6 +1,6 @@
 Package: georefdatar
 Title: Geosciences Reference Datasets
-Version: 0.6.6.9006
+Version: 0.7.0.9001
 Authors@R: 
     person("Gerald", "Schuberth", email= "abuseki@proton.me",
       role = c("aut", "cre"))
@@ -18,9 +18,9 @@ URL: https://github.com/abuseki/georefdatar
 BugReports: https://github.com/abuseki/georefdatar/issues
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.1
+RoxygenNote: 7.3.3
 Depends: 
-    R (>= 2.10)
+    R (>= 3.5)
 LazyData: true
 Imports: Rdpack
 RdMacros: Rdpack

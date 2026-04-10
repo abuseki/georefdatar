@@ -1,8 +1,12 @@
 # georefdatar (development version)
 
-## georefdatar 0.6.5.9006
+## gerefdatar 0.7.0.9001
 
-Name change of author/creator
+Added dataset for depleted mantle (DM__Salters_Strack__2004)
+
+## georefdatar 0.6.6.9006
+
+Name and email change of author/creator
 
 ## georefdatar 0.6.5.9005
 

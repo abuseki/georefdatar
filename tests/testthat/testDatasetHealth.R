@@ -18,6 +18,8 @@ test_that('No NAs in datasets', {
   expect_false(any(is.na(CC_Middle__Rudnick_Gao__2014)))
   expect_false(any(is.na(CC_Lower__Rudnick_Gao__2014)))
   expect_false(any(is.na(CC_Bulk__Rudnick_Gao__2014)))
+
+  expect_false(any(is.na(DM__Salters_Stracke__2004)))
 })
 
 

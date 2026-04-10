@@ -130,3 +130,18 @@ test_that('Rudnick_Gao__2014 is OK', {
   expect_equal(CC_Bulk__Rudnick_Gao__2014$`Rb/Cs`, 24)
   expect_equal(CC_Bulk__Rudnick_Gao__2014$Cd, 0.08)
 })
+
+test_that('DM__Salters_Stracke__2004 is OK', {
+  expect_equal(DM__Salters_Stracke__2004$H2O, 116)
+  expect_equal(DM__Salters_Stracke__2004$Be, 25)
+  expect_equal(DM__Salters_Stracke__2004$MgO, 38.22)
+  expect_equal(DM__Salters_Stracke__2004$Ti, 798)
+  expect_equal(DM__Salters_Stracke__2004$Co, 106)
+  expect_equal(DM__Salters_Stracke__2004$Zr, 7.94)
+  expect_equal(DM__Salters_Stracke__2004$In, 12.2)
+  expect_equal(DM__Salters_Stracke__2004$Xe, 0.79)
+  expect_equal(DM__Salters_Stracke__2004$Yb, 0.401)
+  expect_equal(DM__Salters_Stracke__2004$Os, 2.99)
+  expect_equal(DM__Salters_Stracke__2004$Pb, 23.2)
+  expect_equal(DM__Salters_Stracke__2004$U, 4.7)
+})
