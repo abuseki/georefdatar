@@ -17,5 +17,5 @@ All datasets have complete references, making them citable.
 { \insertNoCite{*}{georefdatar} \insertAllCited{} }
 }
 \author{
-Gerald Schuberth-Hlavač
+Gerald Schuberth
 }

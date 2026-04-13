@@ -21,9 +21,9 @@ ICS_Colors
 }
 \description{
 A data set containing the color codes used by the
-\href{https://stratigraphy.org/chart}{International Chronostratigraphic Chart} by the
-\href{https://stratigraphy.org/}{International Commission on Stratigraphy} (ICS)
-\insertCite{Cohen2013}{georefdatar}.
+\href{https://stratigraphy.org/chart}{International Chronostratigraphic Chart} by
+the \href{https://stratigraphy.org/}{International Commission on Stratigraphy}
+(ICS) \insertCite{Cohen2013}{georefdatar}.
 }
 \details{
 The coloring in this chart follows the
@@ -38,6 +38,7 @@ The coloring in this chart follows the
 }
 }
 \seealso{
-\code{\link[=icsColor]{icsColor()}} a convenience function to get a specific color.
+\code{\link[=icsColor]{icsColor()}} a convenience function to get a specific
+color.
 }
 \keyword{datasets}

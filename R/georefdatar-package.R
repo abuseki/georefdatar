@@ -11,7 +11,7 @@
 #' @references { \insertNoCite{*}{georefdatar} \insertAllCited{} }
 #' @importFrom Rdpack reprompt
 #'
-#' @author  Gerald Schuberth-Hlavač
+#' @author  Gerald Schuberth
 #' @aliases georefdatar-package
 #' @name    georefdatar_package
 #' @rdname  georefdatar_package

@@ -5,8 +5,7 @@
 \alias{DM__Salters_Stracke__2004}
 \title{Depleted mantle}
 \format{
-A data frame with 1 row and 80 element concentrations in ppm:\cr
-H2O, He, Li, Be, B, CO2, N2, F, Ne, Na2O, MgO, Al2O3, SiO2, P, S, Cl, Ar, K, CaO, Sc, Ti, V, Cr, Mn, FeO, Co, Ni, Cu, Zn, Ga, Ge, As, Se, Kr, Rb, Sr, Y, Zr, Nb, Mo, Ru, Rh, Pd, Ag, Cd, In, Sn, Sb, Te, Xe, Cs, Ba, La, Ce, Pr, Nd, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu, Hf, Ta, W, Re, Os, Ir, Pt, Au, Hg, Tl, Pb, Bi, Th, U
+A list with 80 elements.
 }
 \usage{
 DM__Salters_Stracke__2004
@@ -16,9 +15,9 @@ A data set containing the estimated composition of the Depleted Mantle as
 given by \insertCite{Salters2004;textual}{georefdatar}.
 }
 \details{
-The data set contains the elemnts and their values. Here is a table that
-also contains the elements, their modeled values and their units:\tabular{lrl}{
-   Element \tab Model \tab Unit \cr
+The data set contains the elements and their (modeled) values. Here is the
+table that also contains the units:\tabular{lrl}{
+   \strong{Element} \tab \strong{Model} \tab \strong{Unit} \cr
    H2O \tab 116.000 \tab ppm \cr
    He \tab 157.000 \tab ppt \cr
    Li \tab 0.700 \tab ppm \cr

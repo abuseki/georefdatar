@@ -8,15 +8,6 @@
 
 x <- read.csv("data-raw/DM__Salters_Stracke__2004.csv", comment.char = '#')
 
-# unify units to ppm
-# to_ppm <- c('wt%'= 1E4,'ppb'= 1E-3, 'ppt'= 1E-6, 'ppq'= 1E-9)
-#
-# lapply(names(to_ppm), function(u) {
-#   x[x$Unit == u, ]
-#   x[x$Unit == u, 'Model'] <<- x[x$Unit == u, 'Model']*to_ppm[u]
-#   x[x$Unit == u, ]
-# })
-
 # make the table wider
 DM__Salters_Stracke__2004 <- tidyr::pivot_wider(
   data = x[c('Element', 'Model')],

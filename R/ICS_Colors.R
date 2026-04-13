@@ -1,9 +1,9 @@
 #' The CGMW ICS color codes
 #'
 #' A data set containing the color codes used by the
-#' [International Chronostratigraphic Chart](https://stratigraphy.org/chart) by the
-#' [International Commission on Stratigraphy](https://stratigraphy.org/) (ICS)
-#' \insertCite{Cohen2013}{georefdatar}.
+#' [International Chronostratigraphic Chart](https://stratigraphy.org/chart) by
+#' the [International Commission on Stratigraphy](https://stratigraphy.org/)
+#' (ICS) \insertCite{Cohen2013}{georefdatar}.
 #'
 #' The coloring in this chart follows the
 #' [Commission for the Geological Map of the World](https://ccgm.org/) (CGMW)
@@ -21,7 +21,8 @@
 #' \item{Red, Green, Blue}{Color's values in the RGB color model}
 #' }
 #'
-#' @seealso [georefdatar::icsColor()] a convenience function to get a specific color.
+#' @seealso [georefdatar::icsColor()] a convenience function to get a specific
+#'    color.
 #'
 #' @references{
 #'   \insertRef{Cohen2013}{georefdatar}

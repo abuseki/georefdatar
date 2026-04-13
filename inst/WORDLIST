@@ -12,6 +12,7 @@ CPKHexColor
 CaO
 Chondrite
 Chronostratigraphic
+DM
 ElectronAffinity
 ElectronConfiguration
 Electronegativity
@@ -21,7 +22,6 @@ Goldschmidt
 Goldschmidt's
 GroupBlock
 HREE
-Hlavač
 ICS
 IMA
 IPGE
@@ -45,13 +45,15 @@ PubChem
 Pyrolite
 REE
 RRUFF
-Schuberth
+Salters
 SiO
 StandardState
+Strack
 Stratigraphy
 Tbl
 TiO
 Warr
+Wordlist
 YearDiscovered
 amphibole
 atmophile
@@ -75,6 +77,8 @@ lithophile
 mW
 ng
 ppb
+ppq
+ppt
 pyroxene
 redox
 sidero

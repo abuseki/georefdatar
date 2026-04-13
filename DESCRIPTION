@@ -1,18 +1,18 @@
 Package: georefdatar
 Title: Geosciences Reference Datasets
-Version: 0.7.1.9002
+Version: 0.7.2.9001
 Authors@R: 
     person("Gerald", "Schuberth", email= "abuseki@proton.me",
       role = c("aut", "cre"))
 Description: Reference datasets commonly used in the geosciences. These include 
   standard atomic weights of the elements, a periodic table, a list of minerals 
   including their abbreviations and chemistry, geochemical data of reservoirs 
-  (primitive mantle, continental crust, mantle, basalts, etc.), decay constants 
-  and isotopic ratios frequently used in geochronology, color codes of the 
-  chronostratigraphic chart. In addition, the package provides functions for 
-  basic queries of atomic weights, the list of minerals, and chronostratigraphic
-  chart colors. All datasets are fully referenced, and a BibTeX file containing 
-  the references is included.
+  (primitive and depleted mantle, continental crust, mantle, basalts, etc.),
+  decay constants and isotopic ratios frequently used in geochronology, color
+  codes of the chronostratigraphic chart. In addition, the package provides
+  functions for basic queries of atomic weights, the list of minerals, and
+  chronostratigraphic chart colors. All datasets are fully referenced, and a
+  BibTeX file containing the references is included.
 License: MIT + file LICENSE
 URL: https://github.com/abuseki/georefdatar
 BugReports: https://github.com/abuseki/georefdatar/issues
@@ -22,7 +22,9 @@ RoxygenNote: 7.3.3
 Depends: 
     R (>= 3.5)
 LazyData: true
-Imports: Rdpack
+Imports:
+    Rdpack,
+    knitr
 RdMacros: Rdpack
 Suggests: 
     spelling,

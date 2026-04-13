@@ -1,6 +1,6 @@
 # georefdatar (development version)
 
-## gerefdatar 0.7.0.9001
+## georefdatar 0.7.0.9001
 
 Added dataset for depleted mantle (DM__Salters_Strack__2004)
 
